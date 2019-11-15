@@ -1,1 +1,26 @@
-<h1>我的第一个网站</h1>
+<!DOCTYPE html>
+
+<html style="height: 100%;">
+     <head>
+         <meta charset="UTF-8">
+         <script src="https://cdn.bootcss.com/vue/2.6.10/vue.min.js"></script>
+         <title>Be Happy! Woondeewyy.</title>
+     </head>
+     <body style="height: 100%;">
+         <style>
+         </style>
+         <div id="appVue">
+              <div>
+                   {{message}}
+              </div>
+         </div>
+         <script>
+              new Vue({
+                   el:"#appVue",
+                   data:{
+                      message:"Hello Woondeewyy!Be Happy!"
+                   }
+              })
+         </script>
+     </body>
+</html>
